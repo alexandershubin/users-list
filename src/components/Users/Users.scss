@@ -1,0 +1,138 @@
+.users {
+  display: flex;
+  align-items: start;
+  height: 100vh;
+  transition: transform .3s;
+  width: 100%;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 34px 0;
+  }
+
+  &__h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0;
+    letter-spacing: 0.4px;
+  }
+
+  &__span {
+    max-width: 220px;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &--bold {
+      font-weight: 500;
+    }
+  }
+
+  .item-btn {
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &--dlt {
+      background-image: url("./../../img/btn-edit.svg");
+    }
+
+    &--edit {
+      background-image: url("./../../img/btn-dlt.svg");
+    }
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: 15% 17% 19% 21% 1fr 32px 32px;
+    grid-column-gap: 16px;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    padding: 8px 32px;
+    overflow: hidden;
+
+    &--title {
+      padding: 10px 32px;
+    }
+  }
+
+  &__btn {
+    font-weight: 500;
+    padding: 9px 0;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+
+    &--blue {
+      background: #4587ED;
+    }
+
+    &--add {
+      max-width: 159px;
+      width: 100%;
+      transition: ease-in 0.2s;
+      position: relative;
+      padding-left: 22px;
+
+      &:before,
+      &:after {
+        position: absolute;
+        content: '';
+        border: 1.2px solid #fff;
+      }
+
+      &:before {
+        width: 12px;
+        left: 34px;
+        top: 15px;
+      }
+
+      &:after {
+        height: 12px;
+        left: 40px;
+        top: 9px;
+      }
+
+      &:hover {
+        background: #286edb;
+        transition: ease-out 0.2s;
+      }
+    }
+
+    &--form {
+      margin: 12px 24px 12px 0;
+      padding: 10.5px 0;
+      max-width: 153px;
+      width: 100%;
+      transition: ease-in 0.2s;
+
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+
+    &--cancel {
+      background: #E4E5E8;
+      color: #6D7885;
+    }
+  }
+}
+

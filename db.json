@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "content": {
+        "name": "Федор",
+        "surname": "Григорьев",
+        "lastName": "Григорьевич",
+        "email": "mail6@mail.com",
+        "login": "user6"
+      },
+      "id": 1
+    },
+    {
+      "content": {
+        "name": "Сергей",
+        "surname": "Хвастунов",
+        "lastName": "Петрович",
+        "email": "mail5@mail.com",
+        "login": "user5"
+      },
+      "id": 2
+    },
+    {
+      "content": {
+        "name": "Виктор",
+        "surname": "Федоров",
+        "lastName": "Федорович",
+        "email": "mail4@mail.com",
+        "login": "user4"
+      },
+      "id": 3
+    },
+    {
+      "content": {
+        "name": "Григорий",
+        "surname": "Григорий",
+        "lastName": "Викторович",
+        "email": "mail3@mail.com",
+        "login": "user3"
+      },
+      "id": 4
+    },
+    {
+      "content": {
+        "name": "Петр",
+        "surname": "Петров",
+        "lastName": "Сергеевич",
+        "email": "mail2@mail.com",
+        "login": "user2"
+      },
+      "id": 5
+    },
+    {
+      "content": {
+        "name": "Иван",
+        "surname": "Иванов",
+        "lastName": "Иванович",
+        "email": "mail1@mail.com",
+        "login": "user1"
+      },
+      "id": 6
+    }
+  ]
+}

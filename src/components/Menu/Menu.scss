@@ -1,0 +1,109 @@
+.nav {
+  max-width: 280px;
+  width: 100%;
+  height: 100vh;
+  background: #FFFFFF;
+
+  &__list {
+    list-style: none;
+  }
+}
+
+// стили для бокового меню
+//.nav {
+//  width: 280px;
+//  min-width: 280px;
+//  height: 100%;
+//  position: absolute;
+//  top: 56px;
+//  bottom: 0;
+//  margin: 0;
+//  left: -280px;
+//  padding: 30px 40px 0 20px;
+//  transition: left 0.3s;
+//  background: #FFFFFF;
+//  z-index: 1;
+//
+//  &__toggle {
+//    position: absolute;
+//    left: 280px;
+//    top: -50px;
+//    padding: 10px;
+//    color: #fff;
+//    cursor: pointer;
+//    font-size: 25px;
+//    line-height: 1;
+//    z-index: 0;
+//    transition: color .25s ease-in-out;
+//
+//    &:after {
+//      content: '\2630';
+//      text-decoration: none;
+//      transition: .2s ease-in-out;
+//    }
+//
+//    &:hover {
+//     opacity: .8;
+//      transition: .2s ease-in-out;
+//    }
+//  }
+//
+//  &__list {
+//    display: block;
+//    margin: 0;
+//    padding: 0;
+//    list-style: none;
+//  }
+//
+//  &__item {
+//    line-height: 30px;
+//    opacity: 0;
+//    transform: translateX(-50%);
+//    transition: opacity .5s .1s, transform .5s .1s;
+//  }
+//
+//  &__link {
+//    padding: 0;
+//    font-size: 25px;
+//    color: #969696;
+//    width: 100%;
+//    text-decoration: none;
+//
+//    &:hover {
+//      color: #000000;
+//    }
+//  }
+//}
+//
+//[id='nav-toggle']:checked ~ .nav > .nav__toggle {
+//  left: auto;
+//  right: 2px;
+//  top: 0;
+//  color: #000000;
+//}
+//
+//[id='nav-toggle']:checked ~ .nav {
+//  left: 0;
+//  overflow-y: auto;
+//}
+//
+//[id='nav-toggle']:checked ~ .users {
+//  transform: translateX(280px);
+//}
+//
+//[id='nav-toggle']:checked ~ .nav > .nav__toggle:after {
+//  content: '\2715';
+//}
+//
+//[id='nav-toggle']:checked ~ .nav .nav__item {
+//  opacity: 1;
+//  transform: translateX(0);
+//}
+//
+//@media screen and (max-width: 320px) {
+//  .nav {
+//    width: 100%;
+//    box-shadow: none
+//  }
+//}
+//
