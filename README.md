@@ -1,4 +1,4 @@
-![Снимок экрана 2021-10-17 в 17 14 37](https://user-images.githubusercontent.com/41856053/137631186-0a3b339f-bccf-45f1-affd-fcfa580f3182.png)
+![App](https://user-images.githubusercontent.com/41856053/137631251-5537a38e-f27f-4f51-9905-b18cdc9a8cee.png)
 
 ## Краткая
 инструкция по работе с проектом
